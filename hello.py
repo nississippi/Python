@@ -30,3 +30,13 @@ print(ink)
 # 文字列連結joinメソッド（数値が混ざるとエラーが出る）
 print("".join(["Apple", "Orange", "Lemon"]))
 print(",".join(("Blue", "Red", "Green")))
+
+# 繰り返し
+num = 1
+print("Start")
+
+while num < 6:
+    print("num = " + str(num))
+    num += 1
+
+print("End")
