@@ -40,3 +40,10 @@ while num < 6:
     num += 1
 
 print("End")
+
+# 集合
+x = 10
+y = 20
+myset = {x, y}
+
+print(myset)
