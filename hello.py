@@ -47,3 +47,17 @@ y = 20
 myset = {x, y}
 
 print(myset)
+
+mylist = ["A", "B", "C"]
+myset = set(mylist)
+print(myset)
+
+myfrozenset = frozenset(mylist)
+print(myfrozenset)
+
+mytuple = ("A", "B", "C")
+myset = set(mytuple)
+print(myset)
+
+myfrozenset = frozenset(mytuple)
+print(myfrozenset)
