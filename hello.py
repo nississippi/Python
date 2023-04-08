@@ -41,7 +41,7 @@ while num < 6:
 
 print("End")
 
-# 集合
+# 集合※要素の順序は反映されない
 x = 10
 y = 20
 myset = {x, y}
